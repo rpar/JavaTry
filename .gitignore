@@ -1,2 +1,7 @@
 /target/
 /target/*
+/.gradle/
+/build/
+/bin/
+/.settings
+/.gradle/
