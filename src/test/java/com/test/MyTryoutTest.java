@@ -1,11 +1,11 @@
 package com.test;
 
-//import org.junit.Test;
+import com.tryout.MyTryout;
 import org.junit.jupiter.api.Test;
 
 import com.tryout.MyTryout;
 
-public class MyTestCase {
+public class MyTryoutTest {
 
 	@Test
 	public void testOptional() {
@@ -14,18 +14,7 @@ public class MyTestCase {
 		System.out.println("Starting");
 		boolean asserted = MyTryout.checkOptionNullable("String");
 		
-		assert(asserted);		
-	}
-
-	@Test
-	public void testOptional2() {
-		//MyTryout myTryout = new MyTryout();
-		
-		System.out.println("Starting");
-		boolean asserted = MyTryout.checkOptionNullable("String");
-		
 		assert(asserted);
 		
 	}
-
 }
