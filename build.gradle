@@ -13,6 +13,7 @@ repositories {
         url = uri('https://repo.maven.apache.org/maven2/')
     }
 }
+apply plugin: 'eclipse'
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.11.3'
@@ -21,7 +22,7 @@ dependencies {
 group = 'Mytry'
 version = '0.0.1-SNAPSHOT'
 description = 'JavaTry'
-java.sourceCompatibility = JavaVersion.VERSION_1_8
+java.sourceCompatibility = JavaVersion.VERSION_17
 
 publishing {
     publications {

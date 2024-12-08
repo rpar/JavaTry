@@ -9,23 +9,10 @@ public class MyTestCase {
 
 	@Test
 	public void testOptional() {
-		//MyTryout myTryout = new MyTryout();
 		
-		System.out.println("Starting");
 		boolean asserted = MyTryout.checkOptionNullable("String");
 		
 		assert(asserted);		
-	}
-
-	@Test
-	public void testOptional2() {
-		//MyTryout myTryout = new MyTryout();
-		
-		System.out.println("Starting");
-		boolean asserted = MyTryout.checkOptionNullable("String");
-		
-		assert(asserted);
-		
 	}
 
 }
